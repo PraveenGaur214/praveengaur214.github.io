@@ -1,0 +1,86 @@
+body{
+    background-color:lemonchiffon;
+}
+
+.main-cont{
+    width: 94%;
+    margin: 0 auto;
+    background-color: silver;
+    height: 100%;
+
+}
+.topnav{
+    display: inline-flex;
+    width: 100%;
+    background-color: rgb(30, 8, 50);
+    margin: 0 auto;
+    border: blue 2px solid;
+    height: 10%;
+    color: #f1f1f1;
+    
+}
+.topnav .lft
+{
+    width: 20%;
+    padding-left:4% ;
+    padding-top: 1%;
+    background: url(logo.jpg);
+    float: left;
+    border: black 2px solid;
+}
+.topnav .cntr
+{
+    width: 69%;
+    padding-left:4% ;
+    padding-top: 1%;
+    
+    text-align: center;
+    border: black 2px solid;
+    
+}
+.topnav .rght{
+    width: 15%;
+    padding-left:4% ;
+    padding-top:0;
+    float: right;
+    border: black 2px solid;
+}
+
+.dropbtn {
+    background: url(nav.png);
+  background-color: #c6e3d9;
+  color: white;
+ 
+  border: 5px black solid;
+  width: 50%;
+  padding: auto auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 20%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 2vh 2vh;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;
+border:  green 5px solid;}
+
